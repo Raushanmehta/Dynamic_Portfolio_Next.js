@@ -14,6 +14,7 @@ const products: Product[] = [
     { id: 3, imageUrl: "/assets/Product-image.jpg", description: "Lorem ipsum dolor sit.", price: 4166 },
     { id: 4, imageUrl: "/assets/Product-image.jpg", description: "Lorem ipsum dolor sit.", price: 4166 },
     { id: 5, imageUrl: "/assets/Product-image.jpg", description: "Lorem ipsum dolor sit.", price: 4166 },
+    { id: 6, imageUrl: "/assets/Product-image.jpg", description: "Lorem ipsum dolor sit.", price: 4166 },
 ];
 
 const Card: React.FC = () => {
