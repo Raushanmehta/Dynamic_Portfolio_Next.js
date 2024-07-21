@@ -85,13 +85,13 @@ const Project: React.FC = () => {
 
   return (
     <div className='bg-black/[0.96] '>
-      <h1 className='text-center text-4xl font-bold text-white'>My Project</h1>
+      <h1 className='text-center text-4xl font-bold text-white '>My Project</h1>
       <div className='text-white flex flex-row justify-center items-center  gap-2 py-6'>
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
         <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
         <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === "Mobile"} />
       </div>
-      <div className='grid md:grid-cols-3 gap-8 md:gap-12 p-8 lg:mx-40'>
+      <div className='grid md:grid-cols-3 gap-8 md:gap-12 py-6 px-4 md:mx-24'>
         {filteredProjects.map((project) => (
           <ProjectCard
             key={project.id}

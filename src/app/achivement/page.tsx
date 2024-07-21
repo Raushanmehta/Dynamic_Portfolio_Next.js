@@ -22,8 +22,8 @@ const achivementList =[
 const Achivement = () => {
   return (
     <div className='bg-black/[0.96]'>
-    <div className=' mx-8 md:py-20 '>
-        <div className='border-[#33353f] border rounded-md  flex flex-row items-center justify-between ovrflow-auto lg:mx-40'>
+    <div className=' mx-4 md:py-20 '>
+        <div className='border-[#33353f] border rounded-md  flex flex-row items-center justify-between ovrflow-auto md:mx-24'>
         {achivementList.map((Achivement,index)=>{
         return(
             <div key = {index} className='flex flex-col items-center justify-center mx-4 my-4'>

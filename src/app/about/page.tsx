@@ -60,10 +60,10 @@ const About: React.FC = () => {
 
   return (
     <div className='bg-black/[0.96] h-screen '>
-          <h1 className='text-center text-4xl p-6 font-bold text-white'>About Me</h1>
-      <div className='grid md:grid-cols-2 lg:mx-40  gap-5 p-8 overflow-hidden'>
+          <h1 className='text-center text-4xl p-6  font-bold text-white'>About Me</h1>
+      <div className='grid md:grid-cols-2 md:mx-24  gap-5 py-8 px-4 overflow-hidden'>
         <div className='justify-center items-center '>
-          <Image src="/assets/about-boy.jpg" alt='authort' width={250} height={400} className='rounded-md w-full' />
+          <Image src="/assets/about-image.png" alt='authort' width={500} height={500} className='rounded-md w-full' />
         </div>
         <div className='justify-center items-center md:pl-10 '>
           <h3 className='text-whit my-2 text-white'>MY INTRO</h3>

@@ -13,10 +13,10 @@ const images = [
 
 export const LogoTicker = () => {
     return (
-        <div className="bg-black/[0.96] py-[60px]">
+        <div className="bg-black/[0.96] py-[60px] ">
                 <h2 className="text-center  text-white/70 text-xl"> Trusted by the world's most innovative teams</h2>
             <div className="container mx-auto">
-                <div className="flex overflow-hidden mt-9 relative before:content-[''] before:z-10 after:content-[''] before:h-full after:h-full before:w-20 after:w-20 before:absolute after:absolute before:left-0 after:right-0 before:top-0 after:top-0 before:bg-gradient-to-r before:from-black before:to-transparent after:bg-gradient-to-l after:from-black after:to-transparent">
+                <div className="flex overflow-hidden mt-9 before:content-[''] before:z-10 after:content-[''] before:h-full after:h-full before:w-20 after:w-20 before:absolute after:absolute before:left-0 after:right-0 before:top-0 after:top-0 before:bg-gradient-to-r before:from-black before:to-transparent after:bg-gradient-to-l after:from-black after:to-transparent">
                     <motion.div
                     transition={{
                         duration: 20,

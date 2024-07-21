@@ -41,7 +41,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='sticky top-0 bg-black'>
+        <div className=' sticky top-0 bg-black z-50' >
             <nav className="flex  justify-between items-center  px-8 py-5 lg:px-20 ">
                 <div className='flex justify-between items-center gap-8'>
                     {/* menu */}
