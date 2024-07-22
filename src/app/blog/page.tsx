@@ -73,8 +73,8 @@ const Page: React.FC<BlogCardsProps> = ({ posts }) => {
                 src={post.image}
                 alt="Image Description"
                 objectFit="cover"
-                height={100}
-                width={100}
+                height={400}
+                width={400}
               />
             </div>
             <div className="my-6">

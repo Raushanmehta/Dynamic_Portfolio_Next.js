@@ -18,7 +18,7 @@ export default function Footer({ }: Props) {
             <div className="flex flex-wrap md:mx-6">
               <div className="w-full lg:w-1/4 sm:w-1/2 mt-6">
                 <h2 className="text-xl font-bold text-blue-800">ABOUT</h2>
-                <p className="mt-4 text-neutral-400">Bihar patna 800008</p>
+                <p className="mt-4 text-neutral-400">Gujrat, @Ahmedhabad</p>
                 <p className="text-neutral-400">India</p>
                 <div className="text-neutral-400 hover:text-purple-900"><a href="9304137746">(+91) 9304137746</a></div>
                 <div className="text-neutral-400 hover:text-purple-900"><a href="try.raushanmehta2184@gmail.com">try.raushanmehta@gmail.com</a></div>

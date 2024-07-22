@@ -31,7 +31,7 @@ const Navbar = () => {
         },
         {
             label: "CONTACT",
-            link: "contact"
+            link: "/contact"
         },
     ];
 

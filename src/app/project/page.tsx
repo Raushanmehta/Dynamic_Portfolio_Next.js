@@ -85,7 +85,7 @@ const Project: React.FC = () => {
 
   return (
     <div className='bg-black/[0.96] '>
-      <h1 className='text-center text-4xl font-bold text-white '>My Project</h1>
+      <h1 className='text-center text-4xl p-6 font-bold text-white '>My Project</h1>
       <div className='text-white flex flex-row justify-center items-center  gap-2 py-6'>
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
         <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
