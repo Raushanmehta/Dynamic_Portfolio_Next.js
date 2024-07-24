@@ -42,7 +42,7 @@ const BlogFeature = ({
         style={{
           WebkitMaskImage: maskImage,
           maskImage,
-        } as React.CSSProperties} 
+        } }
         ref={border}
       ></motion.div>
       <div className="w-full h-60 md:h-50 lg:h-50 relative">

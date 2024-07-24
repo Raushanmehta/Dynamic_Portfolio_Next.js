@@ -91,6 +91,7 @@ const Project: React.FC = () => {
         <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag === "Web"} />
         <ProjectTag onClick={handleTagChange} name="Mobile" isSelected={tag === "Mobile"} />
       </div>
+      
       <div className='grid md:grid-cols-3 gap-8 md:gap-12 py-6 px-4 md:mx-24'>
         {filteredProjects.map((project) => (
           <ProjectCard
@@ -103,6 +104,7 @@ const Project: React.FC = () => {
           />
         ))}
       </div>
+      
     </div>
   );
 }

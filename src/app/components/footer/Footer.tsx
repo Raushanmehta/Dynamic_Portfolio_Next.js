@@ -12,7 +12,7 @@ export default function Footer({ }: Props) {
   return (
 
     <footer className="text-white body-font w-full " >
-      <div className="footer_section py-4 bg-black px-4">
+      <div className="footer_section py-4 bg-black px-4 md:px-24">
         <div className="container mx-auto">
           <div className="footer_section_2">
             <div className="flex flex-wrap md:mx-6">

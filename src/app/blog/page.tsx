@@ -3,29 +3,29 @@ import BlogFeature from "../components/BlogFeature";
 
 const posts = [
   {
-    title: "Announcing a free plan for small teams",
+    title: "Fueling Creativity and Design",
     description:
-      "At Wake, our mission has always been focused on bringing openness.",
-    image: "/assets/about-boy.jpg",
-    userImage: "/assets/about-2.jpeg",
-    userName: "Lauren Waller",
+      "In the world of innovation, ideas spark creativity and drive design. Every invention begins as a simple thought.",
+    image: "/assets/blog/blog-1.jpg",
+    userImage: "/assets/blog/raushanmehta.jpeg",
+    userName: "Raushan mehta",
     href: "#",
   },
   {
-    title: "How Google Assistant now helps you kids",
+    title: "A Journey Through the Green Valley",
     description:
-      "Google is constantly updating its consumer AI, Google Assistant",
-    image: "/assets/about-boy.jpg",
-    userImage: "/assets/about-2.jpeg",
-    userName: "Aaron Laruser",
+      "Nestled in the heart of nature, the lush green valley is a tranquil haven. Towering mountains and breathtaking landscape.",
+    image: "/assets/blog/blog-3.jpg",
+    userImage: "/assets/blog/brindasharma.jpeg",
+    userName: "Brinda Sharma",
     href: "#",
   },
   {
-    title: "Front accounts - let's work together",
-    description: "Are you an accountant? Are you a company formation advisor?",
-    image: "/assets/about-boy.jpg",
-    userImage: "/assets/about-2.jpeg",
-    userName: "Lauren Waller",
+    title: "The importance of coding in today's world",
+    description: "This post could explore the latest trends in coding, such as artificial intelligence, machine learning, & quantum computing.",
+    image: "/assets/blog/blog-2.jpg",
+    userImage: "/assets/blog/chaiorcode.jpeg",
+    userName: "Chai or Code",
     href: "#",
   },
 ];
@@ -36,7 +36,7 @@ const Page: React.FC = () => {
   }
 
   return (
-    <div className="bg-black text-white md:py-[30px] sm:py-24">
+    <div className="bg-black text-white md:py-[30px] sm:py-24 ">
       <div className="container mx-auto px-4 py-8">
         <h2 className="text-center font-bold text-5xl tracking-tighter">Everything are Feature</h2>
         <div className="max-w-xl mx-auto">
