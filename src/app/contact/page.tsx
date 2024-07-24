@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
             Get in touch
           </h2>
           <p className="mt-8 text-neutral-400">
-            I'd love to hear from you! If you have any questions, comments, or
+            I&apos;d love to hear from you! If you have any questions, comments, or
             feedback, please use the form below.
           </p>
         </div>
@@ -217,7 +217,7 @@ const Contact: React.FC = () => {
                     I am looking for Job
                   </h4>
                   <p className="mt-1 text-neutral-400">
-                    We're thrilled to announce that we're expanding our team and
+                    We&apos;re thrilled to announce that we&apos;re expanding our team and
                     looking for talented individuals like you to join us.
                   </p>
                 </div>

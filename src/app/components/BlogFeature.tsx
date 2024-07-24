@@ -33,7 +33,7 @@ const BlogFeature = ({
     return () => {
       window.removeEventListener("mousemove", updateMousePosition);
     };
-  }, []);
+  }, [offsetX, offsetY]); // Include motionValue dependencies if necessary
 
   return (
     <div className="border border-white/30 rounded-xl relative overflow-hidden">
@@ -65,7 +65,7 @@ const BlogFeature = ({
             height={40}
             className="rounded-full"
           />
-          <p className="text-sm text-gray-5 00">{userName}</p>
+          <p className="text-sm text-gray-500">{userName}</p>
         </div>
       </div>
     </div>

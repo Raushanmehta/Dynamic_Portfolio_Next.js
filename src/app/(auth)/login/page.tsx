@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const LoginForm = () => {
   return (
@@ -7,44 +8,45 @@ const LoginForm = () => {
       <div className="w-full max-w-md p-8 space-y-4 bg-white rounded-md shadow-lg">
         <header className="text-2xl font-bold text-center">Login</header>
 
-        <form action="#" aria-required  >
+        <form action="#">
           <div className="space-y-4">
             <div>
-            <label htmlFor="email" className="block mb-1 text-sm font-medium
-             text-gray-700">Email</label>
-
+              <label htmlFor="email" className="block mb-1 text-sm font-medium text-gray-700">
+                Email
+              </label>
               <input
                 type="email"
-                id='email'
+                id="email"
                 placeholder="Email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none 
-                focus:ring-2 focus:ring-indigo-400"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                required
               />
             </div>
 
             <div>
-            <label htmlFor="Password" className="block mb-1 text-sm font-medium
-             text-gray-700">Password</label>
-
+              <label htmlFor="password" className="block mb-1 text-sm font-medium text-gray-700">
+                Password
+              </label>
               <input
                 type="password"
-                id='password'
+                id="password"
                 placeholder="Password"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none 
-                focus:ring-2 focus:ring-indigo-400"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                required
               />
             </div>
 
             <div className="text-right">
-              <Link href="forget-password" className="text-sm text-indigo-600
-               hover:underline">
-                Forget password
+              <Link href="/forget-password">
+                <a className="text-sm text-indigo-600 hover:underline">Forget password</a>
               </Link>
             </div>
 
             <div>
-              <button className="w-full px-4 py-2 text-white bg-indigo-600 
-              rounded-md hover:bg-indigo-500">
+              <button
+                type="submit"
+                className="w-full px-4 py-2 text-white bg-indigo-600 rounded-md hover:bg-indigo-500"
+              >
                 Login
               </button>
             </div>
@@ -54,10 +56,9 @@ const LoginForm = () => {
         <div className="text-center">
           <span>
             Already have an account?{' '}
-            <Link href="/sign-up" className="text-indigo-600 hover:underline">
-              SignUp
-              </Link>
-    
+            <Link href="/sign-up">
+              <a className="text-indigo-600 hover:underline">SignUp</a>
+            </Link>
           </span>
         </div>
 
@@ -68,21 +69,22 @@ const LoginForm = () => {
         </div>
 
         <div className="space-y-2">
-          <Link
-            href="#"
-            className="flex items-center justify-center w-full px-4 py-2 space-x-2
-             text-sm border rounded-md hover:bg-gray-100"
-          >
-            <i className="bx bxl-facebook text-xl"></i>
-            <span>Login with Facebook</span>
+          <Link href="#">
+            <a className="flex items-center justify-center w-full px-4 py-2 space-x-2 text-sm border rounded-md hover:bg-gray-100">
+              <i className="bx bxl-facebook text-xl"></i>
+              <span>Login with Facebook</span>
+            </a>
           </Link>
-          <Link
-            href="#"
-            className="flex items-center justify-center w-full px-4 py-2 space-x-2
-             text-sm border rounded-md hover:bg-gray-100"
-          >
-            <img src="assets/google.png" alt="Google" className="w-5 h-5" />
-            <span>Login with Google</span>
+          <Link href="#">
+            <a className="flex items-center justify-center w-full px-4 py-2 space-x-2 text-sm border rounded-md hover:bg-gray-100">
+              <Image
+                src="/assets/google.png"
+                alt="Google"
+                width={20}
+                height={20}
+              />
+              <span>Login with Google</span>
+            </a>
           </Link>
         </div>
       </div>
